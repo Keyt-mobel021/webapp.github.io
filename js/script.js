@@ -15,7 +15,7 @@ let btn4 = document.getElementById("btn4");
 let btn5 = document.getElementById("btn5");
 let btn6 = document.getElementById("btn6");
 
-brn1.addEventListener("click", function() {
+btn1.addEventListener("click", function() {
     if (tg.MainButton.isVisible){
         tg.MainButton.hide(); }
     else{
@@ -24,7 +24,7 @@ brn1.addEventListener("click", function() {
         tg.MainButton.show(); }
 });
 
-brn2.addEventListener("click", function() {
+btn2.addEventListener("click", function() {
     if (tg.MainButton.isVisible){
         tg.MainButton.hide(); }
     else{
@@ -33,7 +33,7 @@ brn2.addEventListener("click", function() {
         tg.MainButton.show(); }
 });
 
-brn3.addEventListener("click", function() {
+btn3.addEventListener("click", function() {
     if (tg.MainButton.isVisible){
         tg.MainButton.hide(); }
     else{
@@ -42,7 +42,7 @@ brn3.addEventListener("click", function() {
         tg.MainButton.show(); }
 });
 
-brn4.addEventListener("click", function() {
+btn4.addEventListener("click", function() {
     if (tg.MainButton.isVisible){
         tg.MainButton.hide(); }
     else{
@@ -51,7 +51,7 @@ brn4.addEventListener("click", function() {
         tg.MainButton.show(); }
 });
 
-brn5.addEventListener("click", function() {
+btn5.addEventListener("click", function() {
     if (tg.MainButton.isVisible){
         tg.MainButton.hide(); }
     else{
@@ -60,7 +60,7 @@ brn5.addEventListener("click", function() {
         tg.MainButton.show(); }
 });
 
-brn6.addEventListener("click", function() {
+btn6.addEventListener("click", function() {
     if (tg.MainButton.isVisible){
         tg.MainButton.hide(); }
     else{
