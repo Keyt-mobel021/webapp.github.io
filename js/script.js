@@ -1,4 +1,9 @@
 
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const user_token = urlParams.get('user_token')
+
+
 let tg = window.Telegram.WebApp;
 
 tg.expand();
@@ -75,9 +80,9 @@ Telegram.WebApp.onEvent("mainButtonClicked", function(){
 });
 
 let card = document.getElementById("usercard");
-
 let p = document.createElement("p");
 
-p.innerText = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;
+// p.innerText = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;
+p.innerText = user_token;
 
 card.appendChild(p);
